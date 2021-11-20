@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @RequestMapping("/api/v1")
 @CrossOrigin("*") //allow all request
 public class HelloController {
-    @RequestMapping("hello")
+    @RequestMapping("/hello")
     public String hello() {
         return "hello spring!";
     }
